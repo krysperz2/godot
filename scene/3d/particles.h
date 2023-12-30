@@ -32,7 +32,7 @@
 #define PARTICLES_H
 
 #include "core/rid.h"
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 #include "scene/resources/material.h"
 
 class Particles : public GeometryInstance {

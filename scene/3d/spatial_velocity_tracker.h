@@ -31,7 +31,7 @@
 #ifndef SPATIAL_VELOCITY_TRACKER_H
 #define SPATIAL_VELOCITY_TRACKER_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class SpatialVelocityTracker : public Reference {
 	GDCLASS(SpatialVelocityTracker, Reference);

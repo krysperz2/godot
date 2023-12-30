@@ -35,7 +35,7 @@
 #include "multimesh_instance.h"
 #include "scene/3d/light.h"
 #include "scene/3d/lightmapper.h"
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 
 class BakedLightmapData : public Resource {
 	GDCLASS(BakedLightmapData, Resource);

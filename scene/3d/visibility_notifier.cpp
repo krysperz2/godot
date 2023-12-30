@@ -32,7 +32,7 @@
 
 #include "core/engine.h"
 #include "scene/3d/camera.h"
-#include "scene/3d/physics_body.h"
+#include "scene/physics_body.h"
 #include "scene/animation/animation_player.h"
 #include "scene/animation/animation_tree.h"
 #include "scene/animation/animation_tree_player.h"

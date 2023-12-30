@@ -36,7 +36,7 @@
 #include "editor/editor_scale.h"
 #include "scene/3d/immediate_geometry.h"
 #include "scene/3d/light.h"
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 #include "scene/gui/panel_container.h"
 
 class Camera;

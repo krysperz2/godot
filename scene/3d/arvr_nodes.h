@@ -32,7 +32,7 @@
 #define ARVR_NODES_H
 
 #include "scene/3d/camera.h"
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/resources/mesh.h"
 #include "servers/arvr/arvr_positional_tracker.h"
 

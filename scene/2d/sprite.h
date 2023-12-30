@@ -31,7 +31,7 @@
 #ifndef SPRITE_H
 #define SPRITE_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "scene/resources/texture.h"
 
 class Sprite : public Node2D {

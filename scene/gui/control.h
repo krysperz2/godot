@@ -33,7 +33,7 @@
 
 #include "core/math/transform_2d.h"
 #include "core/rid.h"
-#include "scene/2d/canvas_item.h"
+#include "scene/canvas_item.h"
 #include "scene/gui/shortcut.h"
 #include "scene/main/node.h"
 #include "scene/main/timer.h"

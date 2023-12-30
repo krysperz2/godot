@@ -32,7 +32,7 @@
 #define FBX_MESH_DATA_H
 
 #include "core/hash_map.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/resources/surface_tool.h"
 
 #include "fbx_bone.h"

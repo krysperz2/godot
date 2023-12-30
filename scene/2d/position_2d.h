@@ -31,7 +31,7 @@
 #ifndef POSITION_2D_H
 #define POSITION_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class Position2D : public Node2D {
 	GDCLASS(Position2D, Node2D);

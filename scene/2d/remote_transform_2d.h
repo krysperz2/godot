@@ -31,7 +31,7 @@
 #ifndef REMOTE_TRANSFORM_2D_H
 #define REMOTE_TRANSFORM_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class RemoteTransform2D : public Node2D {
 	GDCLASS(RemoteTransform2D, Node2D);

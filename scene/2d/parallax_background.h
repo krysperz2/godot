@@ -32,7 +32,7 @@
 #define PARALLAX_BACKGROUND_H
 
 #include "scene/2d/camera_2d.h"
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "scene/main/canvas_layer.h"
 
 class ParallaxBackground : public CanvasLayer {

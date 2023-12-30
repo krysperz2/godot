@@ -32,7 +32,7 @@
 #define GI_PROBE_H
 
 #include "multimesh_instance.h"
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 
 class GIProbeData : public Resource {
 	GDCLASS(GIProbeData, Resource);

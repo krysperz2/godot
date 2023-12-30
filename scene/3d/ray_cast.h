@@ -31,7 +31,7 @@
 #ifndef RAY_CAST_H
 #define RAY_CAST_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class RayCast : public Spatial {
 	GDCLASS(RayCast, Spatial);

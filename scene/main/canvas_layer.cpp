@@ -29,7 +29,7 @@
 /**************************************************************************/
 
 #include "canvas_layer.h"
-#include "scene/2d/canvas_item.h"
+#include "scene/canvas_item.h"
 #include "viewport.h"
 
 void CanvasLayer::set_layer(int p_xform) {

@@ -31,7 +31,7 @@
 #ifndef OCCLUDER_H
 #define OCCLUDER_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/resources/occluder_shape.h"
 
 class Occluder : public Spatial {

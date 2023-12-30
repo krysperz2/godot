@@ -31,7 +31,7 @@
 #ifndef TOUCH_SCREEN_BUTTON_H
 #define TOUCH_SCREEN_BUTTON_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "scene/resources/bit_map.h"
 #include "scene/resources/rectangle_shape_2d.h"
 #include "scene/resources/texture.h"

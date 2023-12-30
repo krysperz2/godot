@@ -30,7 +30,7 @@
 
 #include "multimesh_editor_plugin.h"
 
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/gui/box_container.h"
 #include "spatial_editor_plugin.h"
 

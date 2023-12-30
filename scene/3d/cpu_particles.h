@@ -33,7 +33,7 @@
 
 #include "core/rid.h"
 #include "core/safe_refcount.h"
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 
 class CPUParticles : public GeometryInstance {
 private:

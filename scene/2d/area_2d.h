@@ -32,7 +32,7 @@
 #define AREA_2D_H
 
 #include "core/vset.h"
-#include "scene/2d/collision_object_2d.h"
+#include "scene/collision_object_2d.h"
 
 class Area2D : public CollisionObject2D {
 	GDCLASS(Area2D, CollisionObject2D);

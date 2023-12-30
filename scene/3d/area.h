@@ -32,7 +32,7 @@
 #define AREA_H
 
 #include "core/vset.h"
-#include "scene/3d/collision_object.h"
+#include "scene/collision_object.h"
 
 class Area : public CollisionObject {
 	GDCLASS(Area, CollisionObject);

@@ -32,7 +32,7 @@
 
 #include "scene/3d/collision_shape.h"
 #include "scene/3d/navigation.h"
-#include "scene/3d/physics_body.h"
+#include "scene/physics_body.h"
 #include "servers/navigation_server.h"
 
 void NavigationObstacle::_bind_methods() {

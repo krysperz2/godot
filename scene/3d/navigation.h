@@ -32,7 +32,7 @@
 #define NAVIGATION_H
 
 #include "scene/3d/navigation_mesh_instance.h"
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class Navigation : public Spatial {
 	GDCLASS(Navigation, Spatial);

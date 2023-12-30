@@ -31,7 +31,7 @@
 #ifndef ROOT_MOTION_VIEW_H
 #define ROOT_MOTION_VIEW_H
 
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 
 class RootMotionView : public VisualInstance {
 	GDCLASS(RootMotionView, VisualInstance);

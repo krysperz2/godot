@@ -33,12 +33,14 @@
 #include "core/class_db.h"
 #include "core/os/os.h"
 #include "core/project_settings.h"
+
+#ifndef _2D_DISABLED
 #include "scene/2d/animated_sprite.h"
 #include "scene/2d/area_2d.h"
 #include "scene/2d/audio_stream_player_2d.h"
 #include "scene/2d/back_buffer_copy.h"
 #include "scene/2d/camera_2d.h"
-#include "scene/2d/canvas_item.h"
+#include "scene/canvas_item.h"
 #include "scene/2d/canvas_modulate.h"
 #include "scene/2d/collision_polygon_2d.h"
 #include "scene/2d/collision_shape_2d.h"
@@ -66,9 +68,11 @@
 #include "scene/2d/sprite.h"
 #include "scene/2d/tile_map.h"
 #include "scene/2d/touch_screen_button.h"
-#include "scene/2d/visibility_notifier_2d.h"
+#include "scene/visibility_notifier_2d.h"
 #include "scene/2d/y_sort.h"
-#include "scene/3d/spatial.h"
+#endif
+
+#include "scene/spatial.h"
 #include "scene/3d/world_environment.h"
 #include "scene/animation/animation_blend_space_1d.h"
 #include "scene/animation/animation_blend_space_2d.h"
@@ -193,7 +197,7 @@
 #include "scene/3d/label_3d.h"
 #include "scene/3d/light.h"
 #include "scene/3d/listener.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/3d/multimesh_instance.h"
 #include "scene/3d/navigation.h"
 #include "scene/3d/navigation_agent.h"
@@ -202,7 +206,7 @@
 #include "scene/3d/occluder.h"
 #include "scene/3d/particles.h"
 #include "scene/3d/path.h"
-#include "scene/3d/physics_body.h"
+#include "scene/physics_body.h"
 #include "scene/3d/physics_joint.h"
 #include "scene/3d/portal.h"
 #include "scene/3d/position_3d.h"
@@ -213,7 +217,7 @@
 #include "scene/3d/room.h"
 #include "scene/3d/room_group.h"
 #include "scene/3d/room_manager.h"
-#include "scene/3d/skeleton.h"
+#include "scene/skeleton.h"
 #include "scene/3d/soft_body.h"
 #include "scene/3d/spring_arm.h"
 #include "scene/3d/sprite_3d.h"
@@ -288,7 +292,7 @@ void register_scene_types() {
 	ClassDB::register_class<HTTPRequest>();
 	ClassDB::register_class<Timer>();
 	ClassDB::register_class<CanvasLayer>();
-	ClassDB::register_class<CanvasModulate>();
+
 	ClassDB::register_class<ResourcePreloader>();
 
 	/* REGISTER GUI */
@@ -588,6 +592,29 @@ void register_scene_types() {
 	ClassDB::register_class<CanvasItemMaterial>();
 	SceneTree::add_idle_callback(CanvasItemMaterial::flush_changes);
 	CanvasItemMaterial::init_shaders();
+
+#ifndef _2D_DISABLED
+	ClassDB::register_class<CanvasModulate>();
+	ClassDB::register_class<AudioStreamPlayer2D>();
+	ClassDB::register_virtual_class<Shape2D>();
+	ClassDB::register_class<LineShape2D>();
+	ClassDB::register_class<SegmentShape2D>();
+	ClassDB::register_class<RayShape2D>();
+	ClassDB::register_class<CircleShape2D>();
+	ClassDB::register_class<RectangleShape2D>();
+	ClassDB::register_class<CapsuleShape2D>();
+	ClassDB::register_class<ConvexPolygonShape2D>();
+	ClassDB::register_class<ConcavePolygonShape2D>();
+	ClassDB::register_class<Curve2D>();
+	ClassDB::register_class<Path2D>();
+	ClassDB::register_class<PathFollow2D>();
+
+	ClassDB::register_class<Navigation2D>();
+	ClassDB::register_class<NavigationPolygon>();
+	ClassDB::register_class<NavigationPolygonInstance>();
+	ClassDB::register_class<NavigationAgent2D>();
+	ClassDB::register_class<NavigationObstacle2D>();
+
 	ClassDB::register_class<Node2D>();
 	ClassDB::register_class<CPUParticles2D>();
 	ClassDB::register_class<Particles2D>();
@@ -619,6 +646,7 @@ void register_scene_types() {
 	ClassDB::register_class<LightOccluder2D>();
 	ClassDB::register_class<OccluderPolygon2D>();
 	ClassDB::register_class<YSort>();
+
 	ClassDB::register_class<BackBufferCopy>();
 
 	OS::get_singleton()->yield(); //may take time to init
@@ -635,6 +663,7 @@ void register_scene_types() {
 	ClassDB::register_class<ParallaxLayer>();
 	ClassDB::register_class<TouchScreenButton>();
 	ClassDB::register_class<RemoteTransform2D>();
+#endif
 
 	OS::get_singleton()->yield(); //may take time to init
 
@@ -742,7 +771,6 @@ void register_scene_types() {
 	OS::get_singleton()->yield(); //may take time to init
 
 	ClassDB::register_class<AudioStreamPlayer>();
-	ClassDB::register_class<AudioStreamPlayer2D>();
 #ifndef _3D_DISABLED
 	ClassDB::register_class<AudioStreamPlayer3D>();
 #endif
@@ -751,24 +779,7 @@ void register_scene_types() {
 
 	OS::get_singleton()->yield(); //may take time to init
 
-	ClassDB::register_virtual_class<Shape2D>();
-	ClassDB::register_class<LineShape2D>();
-	ClassDB::register_class<SegmentShape2D>();
-	ClassDB::register_class<RayShape2D>();
-	ClassDB::register_class<CircleShape2D>();
-	ClassDB::register_class<RectangleShape2D>();
-	ClassDB::register_class<CapsuleShape2D>();
-	ClassDB::register_class<ConvexPolygonShape2D>();
-	ClassDB::register_class<ConcavePolygonShape2D>();
-	ClassDB::register_class<Curve2D>();
-	ClassDB::register_class<Path2D>();
-	ClassDB::register_class<PathFollow2D>();
 
-	ClassDB::register_class<Navigation2D>();
-	ClassDB::register_class<NavigationPolygon>();
-	ClassDB::register_class<NavigationPolygonInstance>();
-	ClassDB::register_class<NavigationAgent2D>();
-	ClassDB::register_class<NavigationObstacle2D>();
 
 	OS::get_singleton()->yield(); //may take time to init
 

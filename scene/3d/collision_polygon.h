@@ -31,7 +31,7 @@
 #ifndef COLLISION_POLYGON_H
 #define COLLISION_POLYGON_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/resources/shape.h"
 
 class CollisionObject;

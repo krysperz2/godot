@@ -188,6 +188,8 @@ opts.Add(BoolVariable("builtin_xatlas", "Use the built-in xatlas library", True)
 opts.Add(BoolVariable("builtin_zlib", "Use the built-in zlib library", True))
 opts.Add(BoolVariable("builtin_zstd", "Use the built-in Zstd library", True))
 
+opts.Add(BoolVariable("disable_2d", "Disable all 2d nodes", False))
+
 # Compilation environment setup
 opts.Add("CXX", "C++ compiler")
 opts.Add("CC", "C compiler")
@@ -641,6 +643,8 @@ if selected_platform in platform_list:
             sys.exit(255)
         else:
             env.Append(CPPDEFINES=["_3D_DISABLED"])
+    if env["disable_2d"]:
+        env.Append(CPPDEFINES=["_2D_DISABLED"])
     if env["disable_advanced_gui"]:
         if env["tools"]:
             print(

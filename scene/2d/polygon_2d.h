@@ -31,7 +31,7 @@
 #ifndef POLYGON_2D_H
 #define POLYGON_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class Polygon2D : public Node2D {
 	GDCLASS(Polygon2D, Node2D);

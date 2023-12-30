@@ -32,7 +32,7 @@
 #define AUDIO_STREAM_PLAYER_2D_H
 
 #include "core/safe_refcount.h"
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "servers/audio/audio_stream.h"
 #include "servers/audio_server.h"
 

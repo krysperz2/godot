@@ -31,7 +31,7 @@
 #ifndef BACK_BUFFER_COPY_H
 #define BACK_BUFFER_COPY_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class BackBufferCopy : public Node2D {
 	GDCLASS(BackBufferCopy, Node2D);

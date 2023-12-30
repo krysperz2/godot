@@ -38,7 +38,7 @@
  */
 
 #include "core/math/transform.h"
-#include "scene/3d/skeleton.h"
+#include "scene/skeleton.h"
 
 class FabrikInverseKinematic {
 	struct EndEffector {

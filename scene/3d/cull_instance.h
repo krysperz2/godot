@@ -31,7 +31,7 @@
 #ifndef CULL_INSTANCE_H
 #define CULL_INSTANCE_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class CullInstance : public Spatial {
 	GDCLASS(CullInstance, Spatial);

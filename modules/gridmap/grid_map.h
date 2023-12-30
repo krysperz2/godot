@@ -32,7 +32,7 @@
 #define GRID_MAP_H
 
 #include "scene/3d/navigation.h"
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/resources/mesh_library.h"
 #include "scene/resources/multimesh.h"
 

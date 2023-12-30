@@ -43,7 +43,7 @@
 #include "scene/3d/bone_attachment.h"
 #include "scene/3d/camera.h"
 #include "scene/3d/light.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/main/node.h"
 #include "scene/resources/material.h"
 

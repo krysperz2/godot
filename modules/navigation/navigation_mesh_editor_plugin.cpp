@@ -34,7 +34,7 @@
 #include "core/io/marshalls.h"
 #include "core/io/resource_saver.h"
 #include "navigation_mesh_generator.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/gui/box_container.h"
 
 void NavigationMeshEditor::_node_removed(Node *p_node) {

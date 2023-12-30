@@ -41,7 +41,7 @@
 #include "scene/3d/label_3d.h"
 #include "scene/3d/light.h"
 #include "scene/3d/listener.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/3d/navigation_mesh_instance.h"
 #include "scene/3d/occluder.h"
 #include "scene/3d/particles.h"

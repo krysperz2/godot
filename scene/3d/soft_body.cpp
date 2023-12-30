@@ -33,9 +33,9 @@
 #include "core/object.h"
 #include "core/os/os.h"
 #include "core/rid.h"
-#include "scene/3d/collision_object.h"
-#include "scene/3d/physics_body.h"
-#include "scene/3d/skeleton.h"
+#include "scene/collision_object.h"
+#include "scene/physics_body.h"
+#include "scene/skeleton.h"
 #include "servers/physics_server.h"
 
 SoftBodyVisualServerHandler::SoftBodyVisualServerHandler() {}

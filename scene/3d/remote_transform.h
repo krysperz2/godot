@@ -31,7 +31,7 @@
 #ifndef REMOTE_TRANSFORM_H
 #define REMOTE_TRANSFORM_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class RemoteTransform : public Spatial {
 	GDCLASS(RemoteTransform, Spatial);

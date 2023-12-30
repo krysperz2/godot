@@ -31,9 +31,9 @@
 #ifndef ANIMATION_PLAYER_H
 #define ANIMATION_PLAYER_H
 
-#include "scene/2d/node_2d.h"
-#include "scene/3d/skeleton.h"
-#include "scene/3d/spatial.h"
+#include "scene/node_2d.h"
+#include "scene/skeleton.h"
+#include "scene/spatial.h"
 #include "scene/resources/animation.h"
 
 #ifdef TOOLS_ENABLED

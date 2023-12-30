@@ -35,7 +35,7 @@
 #include "editor/editor_plugin.h"
 #include "scene/3d/camera.h"
 #include "scene/3d/light.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/gui/viewport_container.h"
 #include "scene/resources/material.h"
 

@@ -31,7 +31,7 @@
 #ifndef BONE_ATTACHMENT_H
 #define BONE_ATTACHMENT_H
 
-#include "scene/3d/skeleton.h"
+#include "scene/skeleton.h"
 
 class BoneAttachment : public Spatial {
 	GDCLASS(BoneAttachment, Spatial);

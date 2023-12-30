@@ -31,7 +31,7 @@
 #ifndef LISTENER_H
 #define LISTENER_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/main/viewport.h"
 
 class Listener : public Spatial {

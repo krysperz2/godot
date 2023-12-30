@@ -31,7 +31,7 @@
 #ifndef VOXEL_LIGHT_BAKER_H
 #define VOXEL_LIGHT_BAKER_H
 
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/resources/multimesh.h"
 
 class VoxelLightBaker {

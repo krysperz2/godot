@@ -31,7 +31,7 @@
 #ifndef Y_SORT_H
 #define Y_SORT_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class YSort : public Node2D {
 	GDCLASS(YSort, Node2D);

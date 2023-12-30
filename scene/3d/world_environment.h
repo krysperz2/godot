@@ -31,7 +31,7 @@
 #ifndef WORLD_ENVIRONMENT_H
 #define WORLD_ENVIRONMENT_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class WorldEnvironment : public Node {
 	GDCLASS(WorldEnvironment, Node);

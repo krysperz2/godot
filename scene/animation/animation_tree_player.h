@@ -32,8 +32,8 @@
 #define ANIMATION_TREE_PLAYER_H
 
 #include "animation_player.h"
-#include "scene/3d/skeleton.h"
-#include "scene/3d/spatial.h"
+#include "scene/skeleton.h"
+#include "scene/spatial.h"
 #include "scene/resources/animation.h"
 
 class AnimationTreePlayer : public Node {

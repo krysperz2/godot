@@ -33,7 +33,7 @@
 
 #include "editor/editor_node.h"
 #include "editor/editor_plugin.h"
-#include "scene/2d/canvas_item.h"
+#include "scene/canvas_item.h"
 #include "scene/gui/box_container.h"
 #include "scene/gui/check_box.h"
 #include "scene/gui/label.h"

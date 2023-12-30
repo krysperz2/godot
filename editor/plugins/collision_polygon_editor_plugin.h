@@ -35,7 +35,7 @@
 #include "editor/editor_plugin.h"
 #include "scene/3d/collision_polygon.h"
 #include "scene/3d/immediate_geometry.h"
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 #include "scene/gui/tool_button.h"
 
 class CanvasItemEditor;

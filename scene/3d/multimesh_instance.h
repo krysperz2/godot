@@ -31,7 +31,7 @@
 #ifndef MULTIMESH_INSTANCE_H
 #define MULTIMESH_INSTANCE_H
 
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 #include "scene/resources/multimesh.h"
 
 class MultiMeshInstance : public GeometryInstance {

@@ -31,7 +31,7 @@
 #ifndef SOFT_BODY_H
 #define SOFT_BODY_H
 
-#include "scene/3d/mesh_instance.h"
+#include "scene/mesh_instance.h"
 
 class SoftBody;
 

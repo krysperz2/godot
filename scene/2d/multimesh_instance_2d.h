@@ -31,7 +31,7 @@
 #ifndef MULTIMESH_INSTANCE_2D_H
 #define MULTIMESH_INSTANCE_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "scene/resources/multimesh.h"
 
 class MultiMeshInstance2D : public Node2D {

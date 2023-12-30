@@ -31,7 +31,7 @@
 #ifndef PATH_H
 #define PATH_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/resources/curve.h"
 
 class Path : public Spatial {

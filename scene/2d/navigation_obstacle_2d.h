@@ -31,7 +31,7 @@
 #ifndef NAVIGATION_OBSTACLE_2D_H
 #define NAVIGATION_OBSTACLE_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "scene/main/node.h"
 
 class Navigation2D;

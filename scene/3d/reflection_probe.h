@@ -31,7 +31,7 @@
 #ifndef REFLECTION_PROBE_H
 #define REFLECTION_PROBE_H
 
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 #include "scene/resources/sky.h"
 #include "scene/resources/texture.h"
 #include "servers/visual_server.h"

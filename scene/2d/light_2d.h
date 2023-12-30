@@ -31,7 +31,7 @@
 #ifndef LIGHT_2D_H
 #define LIGHT_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class Light2D : public Node2D {
 	GDCLASS(Light2D, Node2D);

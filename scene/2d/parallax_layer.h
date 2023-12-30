@@ -31,7 +31,7 @@
 #ifndef PARALLAX_LAYER_H
 #define PARALLAX_LAYER_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class ParallaxLayer : public Node2D {
 	GDCLASS(ParallaxLayer, Node2D);

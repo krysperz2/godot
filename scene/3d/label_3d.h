@@ -31,7 +31,7 @@
 #ifndef LABEL_3D_H
 #define LABEL_3D_H
 
-#include "scene/3d/visual_instance.h"
+#include "scene/visual_instance.h"
 #include "scene/resources/font.h"
 
 class Label3D : public GeometryInstance {

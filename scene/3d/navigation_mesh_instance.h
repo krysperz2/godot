@@ -31,7 +31,7 @@
 #ifndef NAVIGATION_MESH_INSTANCE_H
 #define NAVIGATION_MESH_INSTANCE_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/resources/mesh.h"
 #include "scene/resources/navigation_mesh.h"
 

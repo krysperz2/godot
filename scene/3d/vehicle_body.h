@@ -31,7 +31,7 @@
 #ifndef VEHICLE_BODY_H
 #define VEHICLE_BODY_H
 
-#include "scene/3d/physics_body.h"
+#include "scene/physics_body.h"
 
 class VehicleBody;
 

@@ -31,7 +31,7 @@
 #ifndef RAY_CAST_2D_H
 #define RAY_CAST_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class RayCast2D : public Node2D {
 	GDCLASS(RayCast2D, Node2D);

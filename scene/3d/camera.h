@@ -31,7 +31,7 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/3d/spatial_velocity_tracker.h"
 #include "scene/main/viewport.h"
 #include "scene/resources/environment.h"

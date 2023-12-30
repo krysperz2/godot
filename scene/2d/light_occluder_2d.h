@@ -31,7 +31,7 @@
 #ifndef LIGHT_OCCLUDER_2D_H
 #define LIGHT_OCCLUDER_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 
 class OccluderPolygon2D : public Resource {
 	GDCLASS(OccluderPolygon2D, Resource);

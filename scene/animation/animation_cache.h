@@ -31,7 +31,7 @@
 #ifndef ANIMATION_CACHE_H
 #define ANIMATION_CACHE_H
 
-#include "scene/3d/skeleton.h"
+#include "scene/skeleton.h"
 #include "scene/resources/animation.h"
 
 class AnimationCache : public Object {

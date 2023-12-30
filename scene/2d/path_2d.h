@@ -31,7 +31,7 @@
 #ifndef PATH_2D_H
 #define PATH_2D_H
 
-#include "scene/2d/node_2d.h"
+#include "scene/node_2d.h"
 #include "scene/resources/curve.h"
 
 class Path2D : public Node2D {

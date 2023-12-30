@@ -32,8 +32,8 @@
 
 #include "core/io/resource_saver.h"
 #include "core/os/file_access.h"
-#include "scene/3d/mesh_instance.h"
-#include "scene/3d/spatial.h"
+#include "scene/mesh_instance.h"
+#include "scene/spatial.h"
 #include "scene/resources/mesh.h"
 #include "scene/resources/surface_tool.h"
 

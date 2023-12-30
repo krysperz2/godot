@@ -32,7 +32,7 @@
 #define AUDIO_STREAM_PLAYER_3D_H
 
 #include "core/safe_refcount.h"
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 #include "scene/3d/spatial_velocity_tracker.h"
 #include "servers/audio/audio_filter_sw.h"
 #include "servers/audio/audio_stream.h"

@@ -31,7 +31,7 @@
 #ifndef SPRING_ARM_H
 #define SPRING_ARM_H
 
-#include "scene/3d/spatial.h"
+#include "scene/spatial.h"
 
 class SpringArm : public Spatial {
 	GDCLASS(SpringArm, Spatial);
